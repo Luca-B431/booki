@@ -1,0 +1,32 @@
+/**************** Header ******************/
+
+.hdr-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-logo {
+  width: 61px;
+  height: 19px;
+  margin: 30px 50px;
+}
+
+.navhdr {
+  height: 35px;
+  width: 244px;
+  display: flex;
+  margin: 0px 50px 44px 0px;
+  gap: 68px;
+}
+
+.maintab {
+  display: flex;
+  align-items: center;
+  padding-top: 14px;
+
+  &:hover {
+    color: var(--main-color);
+    border-top: 2px solid;
+  }
+}

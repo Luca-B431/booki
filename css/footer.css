@@ -1,0 +1,29 @@
+/******** Footer ********/
+footer {
+  width: 100%;
+  max-width: 1440px;
+  padding: 20px;
+}
+
+.ftr-mentions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+.ftr-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .h5 {
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
