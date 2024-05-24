@@ -8,11 +8,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 30px;
   gap: 35px;
 
   .h1-main {
     margin-left: 50px;
     margin-bottom: 8px;
+    font-size: 22;
+    font-weight: 700;
   }
 }
 
@@ -29,10 +32,10 @@
 }
 
 .block-sbarlabel {
-  height: 100%;
-  width: 10%;
-  background-color: #d9d9d9;
-  border-radius: 10px 0px 0px 10px;
+  height: 50px;
+  width: 49px;
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .label-sbar {
@@ -44,13 +47,13 @@
 }
 
 .block-sbarinput {
-  height: 100%;
+  height: 49px;
   width: 55%;
 }
 
 .input-sbar {
-  font-size: large;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
   border-top: #f2f2f2 solid;
   border-bottom: #f2f2f2 solid;
   border-left: none;
@@ -61,19 +64,19 @@
 }
 
 .block-sbarbutton {
-  height: 100%;
+  height: 49px;
   width: 40%;
 }
 
 .button-sbar {
   border: var(--main-color) solid;
   color: white;
-  font-size: larger;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
   background-color: var(--main-color);
   width: 100%;
   height: 100%;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 15px 15px 0px;
   cursor: pointer;
 }
 
@@ -89,6 +92,11 @@
   display: flex;
   align-items: center;
   gap: 15px;
+
+  .filter {
+    font-weight: 700;
+    font-style: 18px;
+  }
 }
 
 .globaltab {
@@ -98,7 +106,8 @@
   border: #d9d9d9 2px solid;
   border-radius: 30px;
   padding: 15px 19px;
-  font-size: ;
+  font-size: 17px;
+  font-weight: 700;
 
   &:hover {
     background-color: #deebff;
