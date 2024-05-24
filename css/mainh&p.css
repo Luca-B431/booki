@@ -3,7 +3,7 @@
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
-  margin: 35px 50px;
+  padding: 35px 50px;
 }
 
 .hebergements-and-populaires section {
@@ -134,6 +134,12 @@
   align-items: center;
 }
 
+.populaires-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
 .populaires-cards .card {
   display: flex;
   margin-top: 30px;
@@ -178,6 +184,7 @@
 /********** City-Activities *************/
 
 .city-activities {
+  width: 100%;
   background-color: rgb(255, 255, 255);
 
   .grid2-main {
@@ -220,6 +227,6 @@
 
   h4 {
     font-size: x-large;
-    margin: 30px 30px 0px 80px;
+    padding: 30px 30px 0px 80px;
   }
 }
