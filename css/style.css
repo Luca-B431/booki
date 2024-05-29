@@ -35,14 +35,17 @@ a {
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
-
 /****** MQ1 ***********/
-
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .search-and-filters {
     .filtertab-container {
       gap: 20px;
+
+      .globaltab {
+        max-width: 161px;
+        width: 100%;
+      }
 
       .globaltab-container {
         padding: 0px;
@@ -210,6 +213,7 @@ a {
       .grid2-main {
         display: grid;
         grid-template-columns: 1fr;
+        padding: 30px 30px;
       }
     }
 
